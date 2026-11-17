@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thanh Hùng Futsal – Giày đá bóng chính hãng</title>
+  <meta name="description" content="Giày đá bóng sân futsal và sân cỏ nhân tạo chính hãng. Giao hàng toàn quốc.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#san-pham">Bỏ qua điều hướng</a>
+
+  <!-- ===== ĐẦU TRANG ===== -->
+  <header class="header">
+    <!-- Công tắc menu trên điện thoại (không cần JavaScript) -->
+    <input type="checkbox" id="nav-toggle" class="header__toggle">
+    <label for="nav-toggle" class="header__burger">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <span class="visually-hidden">Mở menu</span>
+    </label>
+
+    <a class="header__logo" href="#" aria-label="Thanh Hùng Futsal, về trang chủ">
+      <span class="header__logo-mark" aria-hidden="true">TH</span>
+      <span class="header__logo-text">Thanh Hùng <small>Futsal</small></span>
+    </a>
+
+    <form class="header__search" role="search" action="#">
+      <label class="visually-hidden" for="q">Tìm kiếm sản phẩm</label>
+      <input id="q" name="q" type="search" placeholder="Bạn đang tìm kiếm...">
+      <button type="submit" aria-label="Tìm kiếm">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      </button>
+    </form>
+
+    <div class="header__actions">
+      <a class="header__icon" href="#" aria-label="Tài khoản">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+      </a>
+      <a class="header__icon" href="#" aria-label="Giỏ hàng, 1 sản phẩm">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="header__badge" aria-hidden="true">1</span>
+      </a>
+    </div>
+
+    <label class="header__backdrop" for="nav-toggle"></label>
+
+    <!-- 5 mục điều hướng chính -->
+    <nav class="nav" aria-label="Điều hướng chính">
+      <label class="nav__close" for="nav-toggle">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+        <span class="visually-hidden">Đóng menu</span>
+      </label>
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#san-pham" aria-current="page">Sân cỏ nhân tạo</a></li>
+        <li><a class="nav__link" href="#san-pham">Futsal</a></li>
+        <li><a class="nav__link nav__link--hot" href="#san-pham">Hot Sales</a></li>
+        <li><a class="nav__link" href="#san-pham">Phụ kiện</a></li>
+        <li><a class="nav__link" href="#chan-trang">Cửa hàng &amp; Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== TIÊU ĐỀ TRANG ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <h1 id="hero-title" class="hero__title">Giày đá bóng chính hãng cho sân futsal và sân cỏ nhân tạo</h1>
+        <p class="hero__text">Nike, Adidas, Mizuno, Asics, Joma, Senda. Bạn có thể thử giày trực tiếp tại cửa hàng hoặc đặt mua online, giao hàng toàn quốc.</p>
+        <a class="button button--primary" href="#san-pham">Xem sản phẩm</a>
+      </div>
+    </section>
+
+    <!-- ===== KHU VỰC SẢN PHẨM ===== -->
+    <section class="products container" id="san-pham" aria-labelledby="products-title">
+      <div class="products__head">
+        <h2 id="products-title" class="products__title">Sản phẩm nổi bật</h2>
+        <p class="products__note">Dữ liệu mẫu dùng cho bài tập</p>
+      </div>
+
+      <ul class="products__grid">
+
+        <li>
+          <article class="card">
+            <div class="card__media">
+              <img src="giay-1.svg" alt="Giày futsal màu trắng, sọc đỏ" width="400" height="300" loading="lazy">
+              <span class="card__tag card__tag--sale">Giảm 15%</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__name">Giày futsal Tốc Độ X1</h3>
+              <p class="card__price"><span class="card__price-now">1.690.000₫</span> <s class="card__price-old">1.990.000₫</s></p>
+              <button class="button button--primary card__action" type="button">Thêm vào giỏ</button>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="card">
+            <div class="card__media">
+              <img src="giay-2.svg" alt="Giày futsal màu đen, sọc xanh" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__name">Giày futsal Đêm Đen Pro</h3>
+              <p class="card__price"><span class="card__price-now">2.250.000₫</span></p>
+              <button class="button button--primary card__action" type="button">Thêm vào giỏ</button>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="card">
+            <div class="card__media">
+              <img src="giay-3.svg" alt="Giày sân cỏ nhân tạo màu đỏ" width="400" height="300" loading="lazy">
+              <span class="card__tag card__tag--sale">Giảm 20%</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__name">Giày cỏ nhân tạo Lửa Đỏ TF</h3>
+              <p class="card__price"><span class="card__price-now">1.280.000₫</span> <s class="card__price-old">1.600.000₫</s></p>
+              <button class="button button--primary card__action" type="button">Thêm vào giỏ</button>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="card">
+            <div class="card__media">
+              <img src="giay-4.svg" alt="Giày sân cỏ nhân tạo màu xanh lá" width="400" height="300" loading="lazy">
+              <span class="card__tag">Mới về</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__name">Giày cỏ nhân tạo Xanh Cỏ Elite</h3>
+              <p class="card__price"><span class="card__price-now">1.950.000₫</span></p>
+              <button class="button button--primary card__action" type="button">Thêm vào giỏ</button>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="card">
+            <div class="card__media">
+              <img src="giay-5.svg" alt="Giày futsal màu xanh dương đậm" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3 class="card__name">Giày futsal Biển Sâu Control</h3>
+              <p class="card__price"><span class="card__price-now">1.490.000₫</span></p>
+              <button class="button button--primary card__action" type="button">Thêm vào giỏ</button>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="card">
+            <div class="card__media">
+              <img src="giay-6.svg" alt="Giày tập luyện màu xám" width="400" height="300" loading="lazy">
+              <span class="card__tag card__tag--sale">Giảm 10%</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__name">Giày tập luyện Xám Nhẹ</h3>
+              <p class="card__price"><span class="card__price-now">890.000₫</span> <s class="card__price-old">990.000₫</s></p>
+              <button class="button button--primary card__action" type="button">Thêm vào giỏ</button>
+            </div>
+          </article>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+
+  <!-- ===== CHÂN TRANG: các mục đã chuyển từ thanh menu ===== -->
+  <footer class="footer" id="chan-trang">
+    <div class="container footer__grid">
+      <section>
+        <h2 class="footer__title">Thanh Hùng Futsal</h2>
+        <p class="footer__text">Giày đá bóng chính hãng từ năm 2013.</p>
+      </section>
+      <nav aria-label="Liên kết phụ">
+        <h2 class="footer__title">Khám phá</h2>
+        <ul class="footer__list">
+          <li><a href="#san-pham">Tất cả sản phẩm</a></li>
+          <li><a href="#">Tin tức giày</a></li>
+          <li><a href="#">Khách hàng</a></li>
+          <li><a href="#">Tuyển dụng</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2 class="footer__title">Cửa hàng &amp; Liên hệ</h2>
+        <ul class="footer__list">
+          <li>Địa chỉ: (thay bằng địa chỉ cửa hàng)</li>
+          <li>Điện thoại / Zalo: (thay bằng số điện thoại)</li>
+        </ul>
+      </section>
+    </div>
+    <p class="footer__copy">© 2026 Thanh Hùng Futsal. Trang này chỉ dùng cho bài tập giao diện.</p>
+  </footer>
+
+  <a class="zalo" href="#" aria-label="Chat qua Zalo">Zalo</a>
+
+</body>
+</html>
